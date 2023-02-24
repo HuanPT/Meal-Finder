@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <title>Meal Finder</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Meal Finder</h1>
+    <div class="flex">
+      <form class="form-search flex">
+        <!-- Input tìm kiếm món ăn -->
+        <input type="text" id="search" name="keyword" placeholder="Search for meals or keywords" autocomplete="off" />
+
+        <!-- Button tìm kiếm món ăn -->
+        <button id="btn-search"><i class="fas fa-search"></i></button>
+      </form>
+
+      <!-- Button random món ăn -->
+      <button id="btn-random"><i class="fas fa-random"></i></button>
+    </div>
+
+    <!-- Nơi hiển thị kết quả tìm kiếm -->
+    <div id="result-heading">
+      <!-- <h2>Kết quả tìm kiếm cho từ khóa 'fish':</h2> -->
+    </div>
+
+    <!-- Nơi hiển thị danh sách món ăn -->
+    <div id="meals" class="meals">
+
+      <!-- Cấu trúc hiển thị 1 món ăn -->
+      <!-- <div class="meal">
+        <img src="https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg" alt="Fish pie">
+        <div class="meal-info">
+          <h3>Fish pie</h3>
+        </div>
+      </div> -->
+
+    </div>
+
+
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script type="module" src="./assets/js/main.js"></script>
+</body>
+
+</html>
